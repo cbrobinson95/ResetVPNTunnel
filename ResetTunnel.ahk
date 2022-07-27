@@ -4,7 +4,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Gui, Destroy
-Gui, Add, Text,, Enter the down office's public IP:
+Gui, Add, Text,, Enter the down site's public IP:
 Gui, Add, Edit, vOfficeIP, %OfficeIP%
 Gui, Add, Button, default, OK
 Gui, Add, Button, x+20, Cancel
